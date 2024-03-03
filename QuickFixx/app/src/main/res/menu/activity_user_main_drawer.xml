@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profile"
+            android:title="Profile"
+            android:icon="@drawable/profile_icon">
+        </item>
+        <item
+            android:id="@+id/Inbox"
+            android:title="Inbox"
+            android:icon="@drawable/inbox_icon"
+            >
+        </item>
+        <item
+            android:id="@+id/Notifications"
+            android:title="Notifications"
+            android:icon="@drawable/notification_icon"
+            >
+        </item>
+        <item
+            android:id="@+id/Coins"
+            android:title="Coins"
+            android:icon="@drawable/coins_icon">
+        </item>
+        <item
+            android:id="@+id/Jobs"
+            android:title="Jobs"
+            android:icon="@drawable/jobs_icon">
+        </item>
+        <item
+            android:id="@+id/Ratings"
+            android:title="Ratings"
+            android:icon="@drawable/rating_icon">
+        </item>
+        <item
+            android:id="@+id/Bookmarks"
+            android:title="Bookmarks"
+            android:icon="@drawable/bookmark">
+        </item>
+        <item
+            android:id="@+id/Settings"
+            android:title="Settings"
+            android:icon="@drawable/settings_icon">
+        </item>
+    </group>
+</menu>

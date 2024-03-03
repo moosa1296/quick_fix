@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.quickfixx.inbox">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#1E88E5"
+        android:text="COMPOSE NEW MESSAGE"
+        android:id="@+id/composeNewMessageBtn" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inbox_Listview"
+        android:dividerHeight="2dp"
+        android:divider="#1E88E5"/>
+</LinearLayout>

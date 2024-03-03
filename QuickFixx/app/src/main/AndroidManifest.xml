@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.quickfixx">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".login"
+            android:label="Login Screen"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".registration"
+            android:label="Register New Account"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".UserBasicInfo"
+            android:label="Basic Info"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".UserMainActivity"
+            android:label="Main"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".PostNewJob"
+            android:label="Post Job"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".ShowAllVotes"
+            android:label="Votes"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".SinglePost"
+            android:label="Post"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".SubmitBid"
+            android:label="Bid"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".JobsDetails"
+            android:label="Details"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".ShowBids"
+            android:label="Bids"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".ShowProfile"
+            android:label="Profile"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".SplashScreen"
+            android:label="QuickFix"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgetPassword"
+            android:label="Forgot Password"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".JobProgress"
+            android:label="Progress"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".SubmitProgress"
+            android:label="Progress"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".addCoins" />
+        <activity
+            android:name=".Comments"
+            android:label="Comments"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".VolunteerMainActivity"
+            android:label="Main"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".VolunteerSinglePost"
+            android:label="Post"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".Message_Thread"
+            android:label="Messages"
+            android:configChanges="orientation|screenSize"/>
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".AdminMainActivity"
+            android:label="@string/title_activity_admin_main"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".VolunteerJobDetails"
+            android:label="@string/title_activity_volunteer_job_details"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"/>
+    </application>
+
+</manifest>

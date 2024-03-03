@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_comments"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.quickfixx.Comments">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add a new comment...."
+            android:textSize="17dp"
+            android:id="@+id/newComment"
+            android:textColor="#FF000000"
+            android:textStyle="italic"
+            android:maxLength="250"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E88E5"
+            android:text="COMMENT"
+            android:id="@+id/commentBtn" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentsListview"
+        android:dividerHeight="3dp"
+        android:divider="#1E88E5"/>
+
+</LinearLayout>

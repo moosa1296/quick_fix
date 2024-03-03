@@ -1,0 +1,14 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.hp.quickfixx.JobsPosted">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/JobsSponsoredListview"
+            android:dividerHeight="5dp"
+            android:divider="#1E88E5">
+        </ListView>
+    </LinearLayout>

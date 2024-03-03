@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "432126230705",
+    "firebase_url": "https://quickfixx-10408.firebaseio.com",
+    "project_id": "quickfixx-10408",
+    "storage_bucket": "quickfixx-10408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432126230705:android:92a6ba2168dd11c7",
+        "android_client_info": {
+          "package_name": "com.example.hp.quickfixx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432126230705-p24tu66jq1fto1beidbs21sgvl8a7a5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.quickfixx",
+            "certificate_hash": "24897f352f1cc8315f7b19e7e14baefda2a265b6"
+          }
+        },
+        {
+          "client_id": "432126230705-ap3uvfpe42inkg04gkc1rspc85dnmjlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFScG-D3YXAumBU7xcJMsJl1GhULahZLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432126230705-ap3uvfpe42inkg04gkc1rspc85dnmjlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
